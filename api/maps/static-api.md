@@ -56,7 +56,7 @@
     - 參見 [HTTP Status Code](#http-status-code) 一節說明本 API 回傳值之一般通則
 - Example
     - `https://api.map8.zone/maps/static?key=<您的 key>&center=25.03745%2C121.547428&zoom=17&size=1024x768&format=jpg`
-    
+    - 結果 : ![](/images/maps-static-api-demo.jpg)
 - [back to index](#api-index)
 
 
