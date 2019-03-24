@@ -1,12 +1,63 @@
 # 台灣圖霸 | Map8 Platform
 歡迎使用 **![](images/logo_28x28.png) 台灣圖霸 | Map8 Platform** 地圖平台
 
-- 歡迎試用我們的 **台灣圖霸 (Map8 Platform) 地圖平台 API**!! [請點此申請](https://docs.google.com/forms/d/1BMN0cnmROBvtfU1JAxk-2sR9KcZdViHMNFtsyTR12l8)~
-- 然後歡迎您到我們的 [官方 API Explorer](https://www.map8.zone/api-explorer) 試用看看~ :smile:
-- 相關技術資料，請參考我們的 [官方文件](./api-documentations.md)
-- 或是有技術疑難，歡迎您發到 [issues 專區](/../../issues)
+- 歡迎試用我們的 **台灣圖霸 (Map8 Platform) 地圖平台 API**!! [請點此申請試用](https://docs.google.com/forms/d/1BMN0cnmROBvtfU1JAxk-2sR9KcZdViHMNFtsyTR12l8)~
+- 然後也歡迎您到我們的 [官方 API Explorer](https://www.map8.zone/api-explorer) 試用看看~ :smile:
+
+有任何技術疑難，歡迎您發到 [issues 專區](/../../issues)~ 
 
 或是有其他任何疑問，也都歡迎您 [跟我們聯絡](http://www.goyourlife.com/zh-TW/map-contact/) 喔!!!
+
+<br/>
+
+## 台灣圖霸 (Map8 Platform) 地圖平台 API 功能，包括 : 
+
+## Maps 類
+1. **[Maps Static API](./api/maps/static-api.md)**
+    - 製作顯示地圖的圖檔，讓您在網站或其他任何素材中嵌入靜態地圖
+
+2. **Maps Embed API**
+    - 不需要任何程式碼，用最簡單的方式 (網址傳遞參數)，就可以在您的網站嵌入動態的互動式地圖
+
+3. **Maps Javascript API**
+    - 為您的網站添加互動式地圖。擁有自己的地圖內容與圖樣
+
+
+## Places 類
+提供全台灣超過 650 萬筆門牌地址、100 萬筆道路、60 萬筆景點之豐富圖資的搜尋功能。
+
+每月圖資更新，每天路調，專業製圖，品質極佳 (不似有些坊間電子地圖，景點雖多，但品質良莠不齊，令人擔心)。
+
+一次的 response 即將全部欄位資料送回給您。讓您的工程師 coding 起來輕鬆，維護起來簡單，更新功能快速，更棒的是，您不必擔心被剝好幾次皮。
+
+極佳的運算能力，瞬間即回應您的 request，滿足您對 QoS (服務品質) 的嚴格要求。
+
+此外，跟 Google Maps 不一樣的地方是，我們直接在結果內回傳距離給您!!!
+
+Places 提供底下 API's : 
+
+1. **[Places API](./api/places/places-api.md)**
+    - **Place Search** : 搜尋地圖圖資, 包括 : 
+        - **[Find Place API](./api/places/places-api.md#find-place-api)**
+            - 給定關鍵字，搜尋景點
+        - **[Nearby Search API](./api/places/places-api.md#nearby-search-api)**
+            - 給定座標，搜尋周遭
+        - **[Text Search API](./api/places/places-api.md#text-search-api)**
+            - 給定任意的關鍵字 (請把這個當作搜尋引擎, 關鍵字以空白分隔, 例如 "加油站 台中" 這樣即可得到滿意的結果)
+    - **[Place Autocomplete API](./api/places/places-api.md#place-autocomplete-api)**
+        - 依據您給定的搜尋關鍵字，將推測的可能清單回覆給您 (通常運用在需要極佳使用體驗, 逐字逼近搜尋目標物的場景上)
+
+2. **[Geocoding API](./api/places/geocoding-api.md)**
+    - [地址定位](./api/places/geocoding-api.md#geocoding-api) : geocoding, 也就是將 `地址 / 門牌` 轉為地理座標 `經緯度` 
+    - [反地址定位](./api/places/geocoding-api.md#reverse-geocoding-api) : reverse geocoding, 也就是將地理座標 `經緯度` 轉為 `地址 / 門牌`
+
+3. **Places Library, Maps Javascript API**
+    - 為您的網站添加互動式地圖，並加入台灣圖霸的圖資搜尋功能 (以 javascript library 的形式提供您簡單的開發應用介面)
+
+
+## Routes 類
+- Directions API
+    - 路徑規劃功能
 
 <br/>
 
