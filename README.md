@@ -2,6 +2,7 @@
 歡迎使用 **![](images/logo_28x28.png) 台灣圖霸 | Map8 Platform** 地圖平台
 
 - 歡迎試用我們的 **台灣圖霸 (Map8 Platform) 地圖平台 API**!! [請點此申請](https://docs.google.com/forms/d/1BMN0cnmROBvtfU1JAxk-2sR9KcZdViHMNFtsyTR12l8)~
+- 然後歡迎您到我們的 [官方 API Explorer](https://www.map8.zone/api-explorer) 試用看看~ :smile:
 - 相關技術資料，請參考我們的 [官方文件](./api-documentations.md)
 - 或是有技術疑難，歡迎您發到 [issues 專區](/../../issues)
 
