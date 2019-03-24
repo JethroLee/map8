@@ -15,6 +15,7 @@
 ## Maps 類
 1. **[Maps Static API](./api/maps/static-api.md)**
     - 製作顯示地圖的圖檔，讓您在網站或其他任何素材中嵌入靜態地圖
+    - [Map8 Platform API Explorer](https://www.map8.zone/api-explorer/#/%5BMaps%5D%20Static%20API)
 
 2. **Maps Embed API**
     - 不需要任何程式碼，用最簡單的方式 (網址傳遞參數)，就可以在您的網站嵌入動態的互動式地圖
@@ -46,10 +47,12 @@ Places 提供底下 API's :
             - 給定任意的關鍵字 (請把這個當作搜尋引擎, 關鍵字以空白分隔, 例如 "加油站 台中" 這樣即可得到滿意的結果)
     - **[Place Autocomplete API](./api/places/places-api.md#place-autocomplete-api)**
         - 依據您給定的搜尋關鍵字，將推測的可能清單回覆給您 (通常運用在需要極佳使用體驗, 逐字逼近搜尋目標物的場景上)
-
+    - [Map8 Platform API Explorer](https://www.map8.zone/api-explorer/#/%5BPlaces%5D%20Find%20Place%20API)
+    
 2. **[Geocoding API](./api/places/geocoding-api.md)**
     - [地址定位](./api/places/geocoding-api.md#geocoding-api) : geocoding, 也就是將 `地址 / 門牌` 轉為地理座標 `經緯度` 
     - [反地址定位](./api/places/geocoding-api.md#reverse-geocoding-api) : reverse geocoding, 也就是將地理座標 `經緯度` 轉為 `地址 / 門牌`
+    - [Map8 Platform API Explorer](https://www.map8.zone/api-explorer/#/%5BPlaces%5D%20Geocoding%20API)
 
 3. **Places Library, Maps Javascript API**
     - 為您的網站添加互動式地圖，並加入台灣圖霸的圖資搜尋功能 (以 javascript library 的形式提供您簡單的開發應用介面)
