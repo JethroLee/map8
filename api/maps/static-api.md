@@ -79,5 +79,5 @@
 ----
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/golife-sysop/map8-docs/master/images/logo_96x96.png" /> <br/> https://map8.zone
+<img src="https://raw.githubusercontent.com/GO-LiFE/map8-docs/master/images/logo_96x96.png" /> <br/> https://map8.zone
 </p>
