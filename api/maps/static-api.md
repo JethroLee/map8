@@ -12,7 +12,7 @@
 - v1.0_2019-01-06 (the present document)
 
 
-## [Maps] Maps Static API SPEC
+## Maps Static API SPEC
 功能 : 在您的網站中嵌入靜態地圖 (圖片)
 
 ## API Index
