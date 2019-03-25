@@ -12,11 +12,11 @@
 - v1.0_2019-01-06 (the present document)
 
 
-## Maps > Static API SPEC
+## [Maps] Maps Static API SPEC
 功能 : 在您的網站中嵌入靜態地圖 (圖片)
 
 ## API Index
-- [Maps / Static API (製作顯示地圖的圖檔)](#static-api)
+- [[Maps] Maps Static API (製作顯示地圖的圖檔)](#static-api)
 
 
 ### Static API
