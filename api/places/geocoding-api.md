@@ -101,12 +101,6 @@
                "results" : [
                   {
                      "formatted_address" : <String>,   // 地址 (經整理、格式化過的)
-                     "geometry" : {
-                        "location" : {
-                           "lat" : <float>,            // 緯度
-                           "lng" : <float>             // 經度
-                        },
-                     },
                      "id" : <String>,                  // 此地點於台灣圖霸系統內的 record ID
                      "place_id" : <String>,            // 此地點於台灣圖霸系統內的 record ID
                      "name" : <String>,                // 本筆搜尋結果的名稱 (地名、道路名、景點名) (例如 "研鼎智能股份有限公司")
