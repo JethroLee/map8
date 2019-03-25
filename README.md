@@ -1,5 +1,5 @@
 # 台灣圖霸 | Map8 Platform
-歡迎使用 **![](images/logo_28x28.png) 台灣圖霸 | Map8 Platform** 地圖平台
+歡迎使用 **![](images/logo.png) 台灣圖霸 | Map8 Platform** 地圖平台
 
 - 歡迎試用我們的 **台灣圖霸 (Map8 Platform) 地圖平台 API**!! [請點此申請試用](https://docs.google.com/forms/d/1BMN0cnmROBvtfU1JAxk-2sR9KcZdViHMNFtsyTR12l8)~
 - 然後也歡迎您到我們的 [官方 API Explorer](https://www.map8.zone/api-explorer) 試用看看~ :smile:
