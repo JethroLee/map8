@@ -1,7 +1,7 @@
 # 台灣圖霸 | Map8 Platform 
 # Application Programming Interface Specification
 
-歡迎使用 **<img src="https://www.map8.zone/images/logo.png" /> 台灣圖霸 | Map8 Platform** 地圖平台 API
+歡迎使用 **![](images/logo.png) 台灣圖霸 | Map8 Platform** 地圖平台
 
 
 ## Notation
@@ -738,6 +738,5 @@
 ----
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/golife-sysop/map8-docs/master/images/logo_96x96.png" /> <br/> https://map8.zone
+<img src="https://raw.githubusercontent.com/GO-LiFE/map8/master/images/logo_96x96.png" /> <br/> https://map8.zone
 </p>
-
