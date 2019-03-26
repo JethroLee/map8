@@ -103,5 +103,5 @@ Places 提供底下 API's :
 ----
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/GO-LiFE/map8/master/images/logo_96x96.png" /> <br/> https://map8.zone
+<a href="https://map8.zone"><img src="https://raw.githubusercontent.com/GO-LiFE/map8/master/images/logo_96x96.png" /></a> <br/> https://map8.zone
 </p>
