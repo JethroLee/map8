@@ -20,7 +20,7 @@
 2. **Maps Embed API**
     - 不需要任何程式碼，用最簡單的方式 (網址傳遞參數)，就可以在您的網站嵌入動態的互動式地圖
 
-3. **Maps Javascript API**
+3. **[Maps Javascript API](https://www.map8.zone/vector/index)**
     - 為您的網站添加互動式地圖。擁有自己的地圖內容與圖樣
 
 
