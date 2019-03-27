@@ -25,48 +25,43 @@
 - **API** :
 
     ```
-    https://maps.map8.zone/?<參數>
-    ```
-place=<Your Place>
-&
-title=CLBC%E5%A4%A7%E7%9B%B4%E8%82%A5%E7%9A%82%E7%AE%B1
-&
-address=%E5%9C%B0%E5%9D%80:%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E6%98%8E%E6%B0%B4%E8%B7%AF569%E8%99%9F
-&
-description=CLBC%E5%A4%A7%E7%9B%B4%E8%82%A5%E7%9A%82%E7%AE%B1-%E5%B1%95%E6%BC%94%E5%BB%B3C%20(%E7%B6%BA%E9%BA%97%E5%BB%A3%E5%A0%B4B2)
-#
-18.6/25.0796124/121.5516343/-30/60
-    
+    https://maps.map8.zone/?<標記說明參數>#<座標視角參數>
+    ```    
 - **HTTP Method** : 
     - **GET**
 - **Synopsis**
-    - **<參數>**
+    - **<標記說明參數>** : 
+        - 底下參數，用來讓您在地圖標記暨彈出視窗 (marker / popup) 上自訂您想要顯示的訊息
         - **key**
             - 必要參數，請帶進您的 key
         - **title**
-            - 選擇性參數，欲顯示之標題 ，格式為 text
+            - 選擇性參數，欲顯示之標題 (格式為任意純文字)
         - **address**
-            - 選擇性參數，欲顯示之地址 ，格式為 text
+            - 選擇性參數，欲顯示之地址 (格式為任意純文字)
         - **description**
-            - 選擇性參數，欲顯示之描述 ，格式為 text
-        - **display**
-            - 必要參數，格式為 #<zoom>/<緯度>/<經度>/角度(option)/視角(option)
-                - zoom: 必要參數，數值 1~20 (數值小為小比例尺，數值越大則比例尺越大；譬如 10 可以看到整個中台灣，而 19 則已經是特寫部分街廓) 
-                    - (您可以從我們線上地圖平台 https://maps.map8.zone 的網址列井字號 `#` 後面的第一個數字評估此數值)
-                - 緯度: 必要參數，WGS84 / EPSG:3857 之緯度
-                - 經度: 必要參數，WGS84 / EPSG:3857 之經度
-                - 角度: 選擇性參數，數值-180~180，單位：度
-                - 視角: 選擇性參數，數值0~60，單位：度
-    - **(Migration 指南) 與 Google Maps 的 Nearby Search API 相容性**
-        1. TBD
+            - 選擇性參數，欲顯示之附加說明 (格式為任意純文字)
+        - **座標視角參數** : 
+            - 井字符號 `#` 後綴的參數，用來讓您控制台灣圖霸地圖的顯示中心點、比例尺層級、視角等等。格式為 `#` 後綴 <縮放層級>/<緯度>/<經度>/<角度>/<視角>
+            - 縮放層級: 必要參數，數值 1~20 (數值小為小比例尺，數值越大則比例尺越大；譬如 10 可以看到整個中台灣，而 19 則已經是特寫部分街廓) 
+                - (您可以從我們線上地圖平台 https://maps.map8.zone 的網址列井字號 `#` 後面的第一個數字評估此數值)
+            - 緯度: 必要參數，WGS84 / EPSG:3857 之緯度
+            - 經度: 必要參數，WGS84 / EPSG:3857 之經度
+            - 角度: 選擇性參數，數值-180~180，單位：度。為地圖的哪個方位朝上 (譬如, 0 表示地圖正北朝上)
+            - 視角: 選擇性參數，數值0~60，單位：度。為俯視地圖的角度 (譬如, 0 表示從正上方俯瞰地圖，而 60 表示以與地平面夾 30 度角的方式俯瞰地圖)
 - **Request Message Body**: 
-    - None.
+    - N / A.
 - **Response**
-    - None.
+    - N / A.
 - Example
-    - `https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056/0/50`
-    - `<iframe src="https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056/0/50" width="640" height="480"></iframe>`
-    - <iframe src="https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056/0/50" width="640" height="480"></iframe>
+    - `https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056`
+    - 或是加上 optional 的地圖視角 : `https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056/0/50`
+    - 您也可以使用 iframe 方式來將台灣圖霸的地圖嵌入您的網站 -- 如下示範，只要將上述網址格式直接填入底下 `<iframe>` 標籤內的 src 欄位即可 : 
+        - `<iframe src="https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056/0/50" width="640" height="480"></iframe>`
+    - 如下圖是 `https://maps.map8.zone/?title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑&key=<在此填入您的 key>#15.6/25.065089/121.580056/0/50`
+        - ![](/images/maps_embed_api_example_1.png)
+    - 如下圖是 `https://maps.map8.zone/?title=在這裡集合&description=小7這裏&key=<在此填入您的 key>#16/25.043475/121.574023/-51.2/50`
+        - ![](/images/maps_embed_api_example_2.png)
+
 - [back to index](#api-index)
 
 
