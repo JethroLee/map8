@@ -12,14 +12,14 @@
 - v1.0_2019-03-16 (the present document)
 
 
-## Maps Embedded API SPEC
+## Maps Embed API SPEC
 功能 : 在您的網站中嵌入互動地圖
 
 ## API Index
-- [[Maps] Maps Embedded API (在您的網頁中嵌入一個互動地圖)]
+- [[Maps] Maps Embed API (在您的網頁中嵌入一個互動地圖)](#maps-embed-api)
 
 
-### Embedded API
+### Maps Embed API
 讓您在網站或其他任何素材中嵌入互動地圖
 
 - **API** :
