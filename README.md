@@ -13,11 +13,11 @@
 ## 台灣圖霸 (Map8 Platform) 地圖平台 API 功能，包括 : 
 
 ## Maps 類
-1. **[Maps Static API](./api/maps/static-api.md)**
+1. **[Maps Static API](./api/maps/maps-static-api.md)**
     - 製作顯示地圖的圖檔，讓您在網站或其他任何素材中嵌入靜態地圖
     - [Map8 Platform API Explorer](https://www.map8.zone/api-explorer/#/%5BMaps%5D%20Static%20API)
 
-2. **Maps Embed API**
+2. **[Maps Embed API](./api/maps/maps-embed-api.md)**
     - 不需要任何程式碼，用最簡單的方式 (網址傳遞參數)，就可以在您的網站嵌入動態的互動式地圖
 
 3. **[Maps Javascript API](https://www.map8.zone/vector/index)**
