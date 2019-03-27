@@ -16,10 +16,10 @@
 功能 : 在您的網站中嵌入靜態地圖 (圖片)
 
 ## API Index
-- [[Maps] Maps Static API (製作顯示地圖的圖檔)](#static-api)
+- [[Maps] Maps Static API (製作顯示地圖的圖檔)](#maps-static-api)
 
 
-### Static API
+### Maps Static API
 製作顯示地圖的圖檔，讓您在網站或其他任何素材中嵌入靜態地圖
 
 - **API** :
