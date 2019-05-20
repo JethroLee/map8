@@ -60,7 +60,7 @@ Places 提供底下 API's :
 
 ## Routes 類
 - Directions API
-    - 路徑規劃功能
+    - [路徑規劃功能](./api/routes/directions-api.md)
 
 <br/>
 
