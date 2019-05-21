@@ -133,7 +133,6 @@
             }
             ```
     - 參見 [HTTP Status Code](#http-status-code) 一節說明本 API 回傳值之一般通則
-    - 參見 ["status" 欄位](#status-欄位) 一節說明 "status" 欄位的一般性意義
 - Example
     
 
