@@ -64,9 +64,9 @@
     - 您也可以使用 iframe 方式來將台灣圖霸的地圖嵌入您的網站 -- 如下示範，只要將上述網址格式直接填入底下 `<iframe>` 標籤內的 src 欄位即可 : 
         - `<iframe src="https://maps.map8.zone/?key=<您的 key>&title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑#15.6/25.065089/121.580056/0/50" width="640" height="480"></iframe>`
     - 如下圖是 [https://maps.map8.zone/?title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑&key=<您的 key>#15.6/25.065089/121.580056/0/50](https://maps.map8.zone/?title=研鼎智能&address=台北市內湖區新湖三路189號6樓&description=台灣圖霸，有口皆碑&key=<您的_key>#15.6/25.065089/121.580056/0/50)
-        - ![](/images/maps_embed_api_example_1.png)
+        - ![](/images/maps_embed_api_example_3.png)
     - 如下圖是 [https://maps.map8.zone/?title=在這裡集合&description=小7這裏&key=<您的_key>#16/25.043475/121.574023/-51.2/50](https://maps.map8.zone/?title=在這裡集合&description=小7這裏&key=<您的_key>#16/25.043475/121.574023/-51.2/50)
-        - ![](/images/maps_embed_api_example_2.png)
+        - ![](/images/maps_embed_api_example_4.png)
 
 - [back to index](#api-index)
 
