@@ -10,7 +10,7 @@
 3. 除非另有指定，否則，地理經緯度座標 (lat 或 latitude 均指經度，lng 或 longitude 均指緯度) 以 WGS84 / EPSG:3857 為地理座標系統
 
 ## Version
-- v0.4_2019-05-20
+- v0.4_2019-05-25
 
 
 ## Routes > Directions API SPEC
@@ -120,7 +120,10 @@
               ]
             }
             ```
-            - 上述每一筆搜尋結果內的各欄位, 若無值, 仍一律回傳, 但帶空值
+            - 以下分別敘述回傳的結構的各個欄位的資訊所代表之意義
+            ```
+                code : Ok //Request could be processed as expected
+            ```
     
     - Status code : **400** Bad Request
         - 表示您的 request 系統偵測到有錯誤而無法完成您的要求。通常是給入的參數多了或少了，或是格式有錯誤，或必要參數卻沒給，等等
