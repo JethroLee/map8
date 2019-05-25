@@ -59,7 +59,9 @@ Places 提供底下 API's :
 
 
 ## Routes 類
-- Directions API
+利用 Map8 圖資所計算出之路網資訊, 提供最佳路徑規劃功能
+
+1. **Directions API**
     - [路徑規劃功能](./api/routes/directions-api.md)
 
 <br/>
