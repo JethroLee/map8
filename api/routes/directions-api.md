@@ -137,6 +137,44 @@
                 ]
             ```
             ```
+                "routes" : [ // 起始點的路徑規劃各點資料
+                    {
+                        "legs" : [ // 在起始點中間每個路口的資訊
+                            {
+                                "steps" : [  // array describs the turn-by-turn instructions
+                                    {
+                                        "intersections" : [ // 在此路口的每個轉彎可能的資訊
+                                        ]
+                                        "driving_side" :  <string> // legal driving side at the location for this step
+                                        "geometry" :  // 內部計算參數
+                                        "duration" : <number> // estimated travel time
+                                        "distance" : <number> // distance of travel from the maneuver to the subsequent step
+                                        "name" : <string> // name of the way
+                                        "weight" : // 內部計算參數
+                                        "mode" : <string> // mode of transportation
+                                        "maneuver" : {
+                                            "bearing_after" :  <number> // clockwise angle from true north to the direction of travel immediately after the maneuver
+                                            "bearing_before" : <number> // clockwise angle from true north to the direction of travel immediately before the maneuver
+                                            "type" : <string> // string indicating the type of maneuver
+                                            "location" : [ // Array that contains the [longitude, latitude] pair
+                                                <number> 
+                                            ]
+                                        }
+                                    }
+                                ]
+                                "weight" : // 內部計算參數
+                                "distance" : <number> // distance traveled by this route leg
+                                "summary" : <string> // Summary of the route
+                                "duration" : <number> // estimated travel time
+                            }
+                        ]
+                        "weight_name" : // 內部計算參數
+                        "geometry" : <string> // whole geometry of the route value
+                        "weight" : // 內部計算參數
+                        "distance" : <number> // distance traveled by the route
+                        "duration" : <number> //estimated travel time
+                    }
+                ]
             ```
     
     - Status code : **400** Bad Request
