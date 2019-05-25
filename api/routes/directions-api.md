@@ -34,7 +34,7 @@
 - **Response**
     - Status code : **200** OK
         - 表示成功完成您的 request
-    - `路徑`
+    - 回傳結構範例
         - **Response Message Body**:
             - type: application/json
             
@@ -122,7 +122,21 @@
             ```
             - 以下分別敘述回傳的結構的各個欄位的資訊所代表之意義
             ```
-                code : Ok //Request could be processed as expected
+                "code" : "Ok" // Request could be processed as expected
+            ```
+            ```
+                "waypoints" : [ // 代表啟始點的座標資訊
+                    {
+                        "hint" : <string> // Unique internal identifier of the segment
+                        "distance" : <number> // distance of the snapped point
+                        "location" : [ // Array that contains the [longitude, latitude] pair
+                            <number>
+                        ]
+                        "name" : <string> // Name of the street
+                    }
+                ]
+            ```
+            ```
             ```
     
     - Status code : **400** Bad Request
